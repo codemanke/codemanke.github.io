@@ -1,0 +1,75 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: linear-gradient(red, yellow);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+    
+    
+        body{
+            background-image: url(https://gravitywerks.com/wp-content/uploads/2017/02/computer-blue-opacity-background.jpg);
+        }
+    
+     p {
+       font-size: 20px;
+       font-family: 'Sedgwick Ave Display', cursive;
+       text-align: left; 
+       line-height: 2.5;
+       border: 3px solid LightGray;
+       margin-left: 35px;
+       margin-right: 25px;
+       margin-top: 25px;
+         
+    }
+        
+        blink {
+    -webkit-animation: 0.5s linear infinite condemned_blink_effect; 
+    animation: 0.5s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { 
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+        img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
